@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Halloween Recipes</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Halloween Recipes</title>
+    </head>
+
     <body>
     
         <header>
 
             <h1>Halloween Recipes</h1>
 
+            <div> 
+                <masthead>
+                    <img src="imgs/masthead.png" alt="a bunch of pumpkins" class="masthead">
+                </masthead>
+            </div>
         </header>
+
+        <!-- ------------------------------------------------------------ -->
 
         <style>
             html,body{
@@ -29,35 +37,48 @@
 
             }
             .img{
-                /* position: absolute; */
-                left: 630px;
-                top: -80px;
+                display: block;
+                margin: auto;
             }
 
             article{
-                margin-top: 20px;
+                margin-top: 10px;
                 border: 1px solid rgb(218, 116, 56);
             }
 
             section{
                 position: relative;
+                background-color: rgb(255, 187, 148);
+                border: 10px solid rgb(255, 187, 148);
             }
 
-            h1{
+            h1,footer{
                 text-align: center;
                 color: rgb(218, 116, 56)
             }
+
+            .masthead{
+                display: block;
+                margin: auto;
+            }
+            
         
         </style>
 
+        <!-- ------------------------------------------------------------ -->
+
         <main>
 
-            <!-- witch finger cookies -->
+            <!-- witch finger cookies ---------------------------------------- -->
             <article> 
 
                 <h2>Witch Finger Cookies</h2>
 
                 <section>
+
+                        <p>If your tastes are a little more gorey, this is the perfect treat for your next Halloween party.</p>
+                        <p>This recipe will require some effort and freezer time.</p>
+
 
                         <h2>Ingredients:</h2>
 
@@ -114,13 +135,16 @@
 
             </article>
 
-            <!-- halloween chex mix -->
+            <!-- halloween chex mix ------------------------------------------- -->
             <article> 
 
                 <h2>Halloween Chex Mix</h2>
 
                 <section>
 
+                        <p>This spooky treat is perfect for parties! Have fun sharing it with friends and family.</p>
+                        <p>This recipe should be made 2 weeks in advance.</p>
+                    
                         <h2>Ingredients:</h2>
 
                         <ul>
@@ -170,13 +194,16 @@
 
             </article>
 
-            <!-- mummy hot dogs -->
+            <!-- mummy hot dogs ---------------------------------------- -->
             <article> 
 
                 <h2>Mummy Hot Dogs</h2>
 
                 <section>
 
+                        <p>The perfect sppoky savory snack.</p>
+                        <p>This recipe only uses 5 ingredients and quick to make!</p>
+                    
                         <h2>Ingredients:</h2>
 
                         <ul>
@@ -219,11 +246,70 @@
 
             </article>
 
+            <!-- pumpkin quesadillas ----------------------------------------  -->
+            <article> 
+
+                <h2>Pumpkin Quesadillas</h2>
+
+                <section>
+
+                        <p>Try these spooky cute pumpkin themed quesadillas!</p>
+                        <p>Great meal to make in a flash before going trick or treating.</p>
+                    
+                        <h2>Ingredients:</h2>
+
+                        <ul>
+                            <li>Cooking spray, for pan</li>
+                            <li>2 cups shredded rotisserie chicken</li>
+                            <li>1/2 lime, juiced</li>
+                            <li>1/2 tsp. chili powder</li>
+                            <li>8 medium flour tortillas</li>
+                            <li>3/4 cup shredded Cheddar</li>
+                            <li>3/4 cup Shredded Monterey Jack</li>
+                            <li>1 Tbsp. extra-virgin olive oil</li>
+                            <li>Hot sauce, for serving</li>
+                        </ul>
+
+                        <div>   </div>
+
+                        <ol>    
+                            <!-- step 1-->
+                            <li>Preheat oven to 425° and grease a large baking sheet with cooking spray.</li>
+
+                            <!-- step 2 -->
+                            <li>In a large bowl, add chicken and toss with lime juice, 
+                                chili powder, and garlic powder.</li>
+                            
+                            <!-- step 3 -->
+                            <li>Assemble quesadillas: Using a paring knife, 
+                                cut a Jack-o-Lantern pattern into 4 flour tortillas.</li>
+
+                            <!-- step 4 -->
+                            <li>Sprinkle chicken and cheese onto remaining 4 tortillas, 
+                                and top with Jack-o-Lanterns. 
+                                Place quesadillas onto baking sheet, 
+                                brush with oil, 
+                                and bake until cheese is melty and tortillas are golden, 
+                                15 minutes.</li>
+
+                            <!-- step 5 -->
+                            <li>Serve with hot sauce.</li>
+                        </ol>
+
+                        <img src="imgs/pumpkin-quesadillas.jpg" alt="a plate of a pumpkin quesadilla" class="img">
+                </section>
+
+            </article>
+
         </main>
 
         <footer>
 
-            <p>More Halloween Food Recipes Here:</p>
+            <p>More Halloween Food Recipes Here: 
+                <a href="https://www.delish.com/holiday-recipes/halloween/g366/scary-halloween-recipes/?utm_source=google&utm_medium=cpc&utm_campaign=mgu_ga_del_md_pmx_prog_org_ca_18646002629&gad_source=1&gad_campaignid=18640182894&gbraid=0AAAAACq-IPxvdsF1ZlgebiGGXjxCqGl-w&gclid=CjwKCAjwoaLWBhAWEiwAnyitu5F3nLngOqBzr22z2TNg1lYaMECuWbuPE8FEu8cYtXBn7CtBGFIoJRoCipkQAvD_BwE">
+               Delish Halloween Recipes</a>
+
+            </p>
 
         </footer>
 
